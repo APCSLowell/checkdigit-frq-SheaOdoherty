@@ -8,7 +8,7 @@ public class CheckDigit
    public static int getCheck(int num) {
     int sum = 0;
     for (int i = 1; i <= getNumberOfDigits(num); i++) {
-        sum+= (8-i) * getDigit(num,i);
+        sum += (8-i) * getDigit(num, i);
     }
         return sum % 10;
 }
@@ -31,7 +31,7 @@ public class CheckDigit
          return false;
        }
      }
-   }    
+       
    
    /** Returns the number of digits in num. */    
    public static int getNumberOfDigits(int num)    
