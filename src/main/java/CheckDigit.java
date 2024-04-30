@@ -18,7 +18,7 @@ public class CheckDigit
         int checkDigit = (sum * 9) % 10;
         return checkDigit;
     }
-   }
+   
  
   /** Returns true if numWithCheckDigit is valid, or false    
    *  otherwise, as described in part (b). 
